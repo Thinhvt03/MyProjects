@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F09DE50629472185003F641C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DE50529472185003F641C /* AppDelegate.swift */; };
+		F09DE50A29472185003F641C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DE50929472185003F641C /* ViewController.swift */; };
+		F09DE50D29472185003F641C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09DE50B29472185003F641C /* Main.storyboard */; };
+		F09DE50F29472186003F641C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F09DE50E29472186003F641C /* Assets.xcassets */; };
+		F09DE51229472186003F641C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F09DE51029472186003F641C /* LaunchScreen.storyboard */; };
+		F09DE51D29472186003F641C /* ClockTabBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DE51C29472186003F641C /* ClockTabBarTests.swift */; };
+		F09DE52729472186003F641C /* ClockTabBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DE52629472186003F641C /* ClockTabBarUITests.swift */; };
+		F09DE52929472186003F641C /* ClockTabBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DE52829472186003F641C /* ClockTabBarUITestsLaunchTests.swift */; };
+		F09DE536294724B7003F641C /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F09DE535294724B7003F641C /* StopwatchViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F09DE51929472186003F641C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09DE4FA29472185003F641C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09DE50129472185003F641C;
+			remoteInfo = ClockTabBar;
+		};
+		F09DE52329472186003F641C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F09DE4FA29472185003F641C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09DE50129472185003F641C;
+			remoteInfo = ClockTabBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F09DE50229472185003F641C /* ClockTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClockTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DE50529472185003F641C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F09DE50929472185003F641C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F09DE50C29472185003F641C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F09DE50E29472186003F641C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F09DE51129472186003F641C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F09DE51329472186003F641C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09DE51829472186003F641C /* ClockTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DE51C29472186003F641C /* ClockTabBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTabBarTests.swift; sourceTree = "<group>"; };
+		F09DE52229472186003F641C /* ClockTabBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTabBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F09DE52629472186003F641C /* ClockTabBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTabBarUITests.swift; sourceTree = "<group>"; };
+		F09DE52829472186003F641C /* ClockTabBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTabBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F09DE535294724B7003F641C /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F09DE4FF29472185003F641C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DE51529472186003F641C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DE51F29472186003F641C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F09DE4F929472185003F641C = {
+			isa = PBXGroup;
+			children = (
+				F09DE50429472185003F641C /* ClockTabBar */,
+				F09DE51B29472186003F641C /* ClockTabBarTests */,
+				F09DE52529472186003F641C /* ClockTabBarUITests */,
+				F09DE50329472185003F641C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F09DE50329472185003F641C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F09DE50229472185003F641C /* ClockTabBar.app */,
+				F09DE51829472186003F641C /* ClockTabBarTests.xctest */,
+				F09DE52229472186003F641C /* ClockTabBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F09DE50429472185003F641C /* ClockTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				F09DE50529472185003F641C /* AppDelegate.swift */,
+				F09DE50929472185003F641C /* ViewController.swift */,
+				F09DE535294724B7003F641C /* StopwatchViewController.swift */,
+				F09DE50B29472185003F641C /* Main.storyboard */,
+				F09DE50E29472186003F641C /* Assets.xcassets */,
+				F09DE51029472186003F641C /* LaunchScreen.storyboard */,
+				F09DE51329472186003F641C /* Info.plist */,
+			);
+			path = ClockTabBar;
+			sourceTree = "<group>";
+		};
+		F09DE51B29472186003F641C /* ClockTabBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				F09DE51C29472186003F641C /* ClockTabBarTests.swift */,
+			);
+			path = ClockTabBarTests;
+			sourceTree = "<group>";
+		};
+		F09DE52529472186003F641C /* ClockTabBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F09DE52629472186003F641C /* ClockTabBarUITests.swift */,
+				F09DE52829472186003F641C /* ClockTabBarUITestsLaunchTests.swift */,
+			);
+			path = ClockTabBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F09DE50129472185003F641C /* ClockTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09DE52C29472186003F641C /* Build configuration list for PBXNativeTarget "ClockTabBar" */;
+			buildPhases = (
+				F09DE4FE29472185003F641C /* Sources */,
+				F09DE4FF29472185003F641C /* Frameworks */,
+				F09DE50029472185003F641C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClockTabBar;
+			productName = ClockTabBar;
+			productReference = F09DE50229472185003F641C /* ClockTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F09DE51729472186003F641C /* ClockTabBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09DE52F29472186003F641C /* Build configuration list for PBXNativeTarget "ClockTabBarTests" */;
+			buildPhases = (
+				F09DE51429472186003F641C /* Sources */,
+				F09DE51529472186003F641C /* Frameworks */,
+				F09DE51629472186003F641C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09DE51A29472186003F641C /* PBXTargetDependency */,
+			);
+			name = ClockTabBarTests;
+			productName = ClockTabBarTests;
+			productReference = F09DE51829472186003F641C /* ClockTabBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F09DE52129472186003F641C /* ClockTabBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F09DE53229472186003F641C /* Build configuration list for PBXNativeTarget "ClockTabBarUITests" */;
+			buildPhases = (
+				F09DE51E29472186003F641C /* Sources */,
+				F09DE51F29472186003F641C /* Frameworks */,
+				F09DE52029472186003F641C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F09DE52429472186003F641C /* PBXTargetDependency */,
+			);
+			name = ClockTabBarUITests;
+			productName = ClockTabBarUITests;
+			productReference = F09DE52229472186003F641C /* ClockTabBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F09DE4FA29472185003F641C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					F09DE50129472185003F641C = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					F09DE51729472186003F641C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F09DE50129472185003F641C;
+					};
+					F09DE52129472186003F641C = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = F09DE50129472185003F641C;
+					};
+				};
+			};
+			buildConfigurationList = F09DE4FD29472185003F641C /* Build configuration list for PBXProject "ClockTabBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F09DE4F929472185003F641C;
+			productRefGroup = F09DE50329472185003F641C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F09DE50129472185003F641C /* ClockTabBar */,
+				F09DE51729472186003F641C /* ClockTabBarTests */,
+				F09DE52129472186003F641C /* ClockTabBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F09DE50029472185003F641C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DE51229472186003F641C /* LaunchScreen.storyboard in Resources */,
+				F09DE50F29472186003F641C /* Assets.xcassets in Resources */,
+				F09DE50D29472185003F641C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DE51629472186003F641C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DE52029472186003F641C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F09DE4FE29472185003F641C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DE536294724B7003F641C /* StopwatchViewController.swift in Sources */,
+				F09DE50A29472185003F641C /* ViewController.swift in Sources */,
+				F09DE50629472185003F641C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DE51429472186003F641C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DE51D29472186003F641C /* ClockTabBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F09DE51E29472186003F641C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09DE52729472186003F641C /* ClockTabBarUITests.swift in Sources */,
+				F09DE52929472186003F641C /* ClockTabBarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F09DE51A29472186003F641C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09DE50129472185003F641C /* ClockTabBar */;
+			targetProxy = F09DE51929472186003F641C /* PBXContainerItemProxy */;
+		};
+		F09DE52429472186003F641C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F09DE50129472185003F641C /* ClockTabBar */;
+			targetProxy = F09DE52329472186003F641C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F09DE50B29472185003F641C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09DE50C29472185003F641C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F09DE51029472186003F641C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F09DE51129472186003F641C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F09DE52A29472186003F641C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F09DE52B29472186003F641C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F09DE52D29472186003F641C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClockTabBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ClockTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F09DE52E29472186003F641C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClockTabBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ClockTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F09DE53029472186003F641C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ClockTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockTabBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClockTabBar";
+			};
+			name = Debug;
+		};
+		F09DE53129472186003F641C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ClockTabBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClockTabBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClockTabBar";
+			};
+			name = Release;
+		};
+		F09DE53329472186003F641C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ClockTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClockTabBar;
+			};
+			name = Debug;
+		};
+		F09DE53429472186003F641C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Project.ClockTabBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClockTabBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F09DE4FD29472185003F641C /* Build configuration list for PBXProject "ClockTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DE52A29472186003F641C /* Debug */,
+				F09DE52B29472186003F641C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09DE52C29472186003F641C /* Build configuration list for PBXNativeTarget "ClockTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DE52D29472186003F641C /* Debug */,
+				F09DE52E29472186003F641C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09DE52F29472186003F641C /* Build configuration list for PBXNativeTarget "ClockTabBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DE53029472186003F641C /* Debug */,
+				F09DE53129472186003F641C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F09DE53229472186003F641C /* Build configuration list for PBXNativeTarget "ClockTabBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F09DE53329472186003F641C /* Debug */,
+				F09DE53429472186003F641C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F09DE4FA29472185003F641C /* Project object */;
+}
